@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Log in page LPU</title>
+</head>
+
+<body class="bg-gray-100 flex items-center">
+
+    <div class="flex bg-white rounded-xl shadow-lg overflow-hidden w-full max-h-full max-w-full">
+        
+        <!-- Left Side: Image -->
+        <div class="w-1/2 hidden md:block">
+            <img src="https://files.lpu.in//umsweb//Events//umseventAssets//27273_2025_2_11_9_30.jpg" 
+                class="h-full w-full object-cover">
+        </div>
+
+        <!-- Right Side: Login Form -->
+        <div class="w-full md:w-1/2 p-8">
+            
+            <!-- Header with Image -->
+            <div class="flex items-center space-x-4">
+                <img class="h-16 w-16 object-cover rounded-lg" src="https://play-lh.googleusercontent.com/TiUALCqQTt6uzkDH9d7oG_JLq1NLui8uRJ_cZcEcO0TaI4b-1_hjVuIxEUGkKFQWGZ0l=w600-h300-pc0xffffff-pd">
+                <img src="https://ums.lpu.in/lpuums/assets/login/img/logos/ums_logo1.svg">
+                <div>
+                    <h2 class="text-lg font-bold uppercase"><u>University</u> <br> Management System</h2>
+                </div>
+            </div>
+
+            <!-- Log in Title -->
+            <h1 class="text-2xl font-bold mt-6">Log in</h1>
+
+            <!-- Selection Menu for Head Office -->
+            <div class="mt-4">
+                <select class="w-full p-2 mt-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    <option value="main">Head Office</option>
+                    <option value="branch1">Branch 1</option>
+                    <option value="branch2">Branch 2</option>
+                    <option value="branch3">Branch 3</option>
+                </select>
+            </div>
+
+            <!-- User ID -->
+            <div class="mt-4 relative">
+                <input type="email" placeholder="User ID" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 pl-10">
+                <i class="fa-regular fa-user absolute right-3 top-3 text-gray-400"></i>
+            </div>
+
+            <!-- Password Field -->
+            <div class="mt-4 relative">
+                <input type="password" placeholder="Password" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 pl-10">
+                <i class="fa-solid fa-eye-slash absolute right-3 top-3 text-gray-400 cursor-pointer"></i>
+            </div>
+
+            <!-- Forgot Password -->
+            <div class="mt-2 text-right text-sm text-blue-500 hover:underline cursor-pointer">
+                Forgot Password?
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" class="w-full mt-6 bg-yellow-800 hover:bg-yellow-900 text-white font-bold py-2 rounded-lg">Login</button>
+
+            <div class="w-full mt-6 py-2 ">
+
+                <i class="fa-solid fa-envelope-open-text"></i>
+                Student Mail
+            </div>
+
+    </div>
+
+</body>
+</html>
